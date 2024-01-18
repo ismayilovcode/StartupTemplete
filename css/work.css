@@ -1,0 +1,32 @@
+section#ourwork {
+  display: grid;
+  grid-template-areas:
+    "t t t"
+    "j j j";
+  gap: 35px;
+  padding: 128px 16px;
+}
+
+section#ourwork div {
+}
+
+section#ourwork > div.foto {
+  grid-area: j;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section#ourwork > div.foto > div > img {
+  width: 360px;
+  margin: 5px;
+}
+
+section#ourwork > div.text {
+  text-align: center;
+  grid-area: t;
+}
+
+section#ourwork > div.foto div img:hover {
+  filter: grayscale(0.4);
+}

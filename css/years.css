@@ -1,0 +1,13 @@
+section#years {
+  display: flex;
+  background-color: gray;
+  color: #f5f5f5;
+  padding: 64px 16px;
+  gap: 10%;
+  text-align: center;
+}
+
+section#years div {
+  width: 25%;
+  font-size: 150%;
+}
