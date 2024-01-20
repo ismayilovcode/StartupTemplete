@@ -1,25 +1,33 @@
 section#ourwork {
   display: grid;
   grid-template-areas:
-    "t t t"
-    "j j j";
+    "t t t t"
+    "j j j j";
   gap: 35px;
   padding: 128px 16px;
 }
 
 section#ourwork div {
+
 }
 
 section#ourwork > div.foto {
   grid-area: j;
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  gap: 10px;
+}
+
+section#ourwork > div.foto div{
+  width: 100%;
 }
 
 section#ourwork > div.foto > div > img {
   width: 360px;
   margin: 5px;
+  width: 100%;
 }
 
 section#ourwork > div.text {

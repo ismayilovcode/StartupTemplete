@@ -1,5 +1,9 @@
 @media (max-width: 1000px) {
-  section#team > div.members {
+  section#team > div.members div.member {
+    grid-template-columns: auto auto;
+  }
+
+  section#ourwork > div.foto {
     grid-template-columns: auto auto;
   }
 }
@@ -13,7 +17,15 @@
     flex-direction: column;
   }
 
-  section#team > div.members {
+  section#team > div.members div.member {
+    grid-template-columns: auto;
+  }
+
+  section#pricing > div.pricings div.pricing {
+    flex-direction: column;
+  }
+
+  section#ourwork > div.foto {
     grid-template-columns: auto;
   }
 }
